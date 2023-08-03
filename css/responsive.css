@@ -48,7 +48,7 @@
 @media (max-width: 1020px) {
     body::before {
         content: "";
-        background-image: url(/imagens/BloodMoonShrine.png);
+        background-image: url(imagens/BloodMoonShrine.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
