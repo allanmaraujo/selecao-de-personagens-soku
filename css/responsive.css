@@ -48,7 +48,7 @@
 @media (max-width: 1020px) {
     body::before {
         content: "";
-        background-image: url(imagens/BloodMoonShrine.png);
+        background-image: url(./imagens/BloodMoonShrine.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -116,6 +116,19 @@
 }
 
 @media (max-width: 860px) {
+    body::before {
+        content: "";
+        background-image: url(./imagens/BloodMoonShrine.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    
     .cabecalho .logo {
         max-width: 600px;
     }
@@ -152,6 +165,19 @@
 @media (max-width: 470px) {
     .site:not(body::before) {
         margin-left: 40px;
+    }
+
+    body::before {
+        content: "";
+        background-image: url(./imagens/BloodMoonShrine.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+        opacity: 0.4;
     }
 
     .cabecalho .logo {
